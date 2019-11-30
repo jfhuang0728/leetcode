@@ -5,6 +5,9 @@ import java.util.HashSet;
 
 public class FindFirstAndLastPositionOfElementInSortedArray {
     public int[] searchRange(int[] nums, int target) {
+        if(nums.length == 0){
+            return new int[]{-1,-1};
+        }
         int start = 0;
         int end = nums.length - 1;
         while (end - start > 1){
@@ -29,10 +32,10 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         return new int[]{-1,-1};
     }
     private int[] findIndexLowAndUp(int[] nums, int returnStart, int returnEnd, int target){
-        while (nums[returnStart] == target && returnStart >= 0){
+        while (returnStart - 1 >= 0 && nums[returnStart - 1] == target){
             returnStart--;
         }
-        while (nums[returnEnd] == target && returnEnd < nums.length){
+        while (returnEnd + 1 < nums.length && nums[returnEnd + 1] == target){
             returnEnd++;
         }
         int[] returnRange = {returnStart, returnEnd};
