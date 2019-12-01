@@ -67,3 +67,25 @@ SetMatrixZeroes:
 searchMatrixMethodTwo:
 方法一：使用了两次二分搜索。
 方法二：使用一次二分搜索。将矩阵的坐标，看成线性的数组坐标，进行值的判断时再使用“取商”和“取余”操作获得线性数组在矩阵中的坐标。
+
+WordSearch:
+使用DFS+回溯算法，并且使用方向数组来遍历矩阵中一个点的上下左右。
+
+SubsetII：
+DFS+回溯+DFS中排出重复元素。难点：对于结果的去重   if(i != startIndex && nums[i] == nums[i - 1]){continue;}
+
+RemoveDuplicatesFromSortedArrayII：
+运用快慢双指针。慢指针指向“新数组的末尾元素”（在原数组上更新元素），快指针去扫描排除重复元素。都是从左向右进行一次扫描。
+若需要新数组所有元素都不重复（RemoveDuplicatesFromSortedArray），则只需要新数组的末尾元素和快指针搜索到的元素不相等（nums[slow] != nums[fast]）；
+若允许两个重复，则末尾元素可以与快指针搜索到的元素相等，但是末尾之前的一个元素不能和快指针搜索到的元素相等。
+
+SearchInRotatedSortedArrayII:
+二分搜索。最坏情况退化为O(n)的时间复杂度{1111011.。。}。重点：当nums[start] == nums[mid]此时要start++,排除重复元素,其他步骤和第一个版本的题目相同。特别注意nums[startIndex] <= target时,end = mid。而不是nums[startIndex] < target.
+
+ConstructBinaryTreeFromPreorderAndInorderTraversal：
+1，通过preorder的第一个元素，找到在inorder中的对应位置place。inorder中place左边为node.left，右边为node.right。
+2，通过inorder，计算出left的大小和right的大小，并在preorder中找到对应的元素。
+3，dfs递归，出口preStart > preEnd。
+
+ConstructBinaryTreeFromInorderAndPostorderTraversal:
+思路同上，postorder扮演和preorder相似的作用。
