@@ -10,8 +10,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
         int left = 0;
         int maxSize = 0;
         Map<Character, Integer> map = new HashMap<>();
-        for(int i = 0; i < s.length(); i++){
-            if(map.containsKey(s.charAt(i))){
+        for(int i = 0; i < s.length(); i++) {
+            if (map.containsKey(s.charAt(i))) {
                 left = Math.max(map.get(s.charAt(i)) + 1, left);//"abba"用例
             }
             map.put(s.charAt(i), i);
