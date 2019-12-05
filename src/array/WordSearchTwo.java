@@ -1,8 +1,6 @@
 package array;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class WordSearchTwo {
     private static final int[][] direction = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
@@ -44,7 +42,9 @@ public class WordSearchTwo {
             }
             marked[i][j] = false;
         }
+
         return false;
+
     }
 
 
