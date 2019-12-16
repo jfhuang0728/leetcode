@@ -1,5 +1,8 @@
 package array;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class CircularArrayLoop {
     private void setZero(int[] nums, int i) {
         int j;
@@ -44,4 +47,13 @@ public class CircularArrayLoop {
             }
             return false;
         }
+
+    public static void main(String[] args) {
+        CircularArrayLoop circularArrayLoop = new CircularArrayLoop();
+        int[] input = {-1,1,-1,-1,-1,-1,-1,-1,-1,-1};
+        circularArrayLoop.circularArrayLoop(input);
+        for(int num : input){
+            System.out.println(num);
+        }
+    }
     }
