@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab55eac5-870a-4bd1-b206-fb8cb2842fb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/BackPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/BackPackV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CoinsInALine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CopyBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/BackPackIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/BackpackII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/BurstBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ScrambleString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summarize/thinkingAnalysis" beforeDir="false" afterPath="$PROJECT_DIR$/summarize/thinkingAnalysis" afterDir="false" />
     </list>
@@ -20,53 +21,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/summarize/thinkingAnalysis">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="233" column="19" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="250" column="101" selection-start-line="250" selection-start-column="101" selection-end-line="250" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dp/CombinationSumIV.java">
+        <entry file="file://$PROJECT_DIR$/src/dp/BurstBalloons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/LongestPalindromicSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/ScrambleString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/BackPackIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dp/BackpackII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dp/BackPackV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dp/CoinsInALine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dp/BackPack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dp/CopyBooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="25" />
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -128,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/string/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/array/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/array/ThreeSumCloset.java" />
         <option value="$PROJECT_DIR$/src/array/FourSum.java" />
         <option value="$PROJECT_DIR$/src/array/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/array/FindFirstAndLastPositionOfElementInSortedArray.java" />
@@ -176,7 +173,13 @@
         <option value="$PROJECT_DIR$/src/dp/CoinsInALine.java" />
         <option value="$PROJECT_DIR$/src/dp/BackPack.java" />
         <option value="$PROJECT_DIR$/src/dp/BackPackV.java" />
+        <option value="$PROJECT_DIR$/src/dp/CombinationSumIV.java" />
+        <option value="$PROJECT_DIR$/src/dp/BackpackII.java" />
+        <option value="$PROJECT_DIR$/src/dp/BackPackIII.java" />
+        <option value="$PROJECT_DIR$/src/dp/LongestPalindromicSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/dp/ScrambleString.java" />
         <option value="$PROJECT_DIR$/summarize/thinkingAnalysis" />
+        <option value="$PROJECT_DIR$/src/dp/BurstBalloons.java" />
       </list>
     </option>
   </component>
@@ -225,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576578021173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576746597880" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoreJavaLearningDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -345,12 +348,13 @@
       <workItem from="1576118593598" duration="665000" />
       <workItem from="1576369910060" duration="5026000" />
       <workItem from="1576457363234" duration="5288000" />
-      <workItem from="1576543047928" duration="4029000" />
+      <workItem from="1576543047928" duration="4777000" />
+      <workItem from="1576733754640" duration="3388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105847000" />
+    <option name="totallyTimeSpent" value="109983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -361,7 +365,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19034852" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1930295" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.30736545" />
@@ -475,45 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/array/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/FindFirstAndLastPositionOfElementInSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/quickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/threeWayQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -795,6 +760,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/CombinationSumIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/BackPackV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/CoinsInALine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/BackPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/CopyBooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -829,45 +829,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/CopyBooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/BackPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/CoinsInALine.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/BackpackII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/BackPackV.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/BackPackIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/LongestPalindromicSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/ScrambleString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/summarize/thinkingAnalysis">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="233" column="19" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="250" column="101" selection-start-line="250" selection-start-column="101" selection-end-line="250" selection-end-column="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/CombinationSumIV.java">
+    <entry file="file://$PROJECT_DIR$/src/dp/BurstBalloons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
