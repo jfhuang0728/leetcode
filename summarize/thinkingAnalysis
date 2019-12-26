@@ -295,3 +295,19 @@ LowestCommonAncestorOfABinarySearchTree，LowestCommonAncestorOfABinaryTree，Lo
                     如果只在一边有，则公共祖先在该侧子树。
                 3，每个节点包含了父节点：普通的遍历，从node->node.parent->....->root。然后比较两个数组路径，找到两组路径最早相等的点，就是他们的最近邻公共祖先。
 
+FlattenBinaryTreeToLinkedList：
+模拟移动的过程即可，注意当cur为null时的处理。
+
+BinaryTreeLevelOrderTraversal：
+使用BFS，以队列作为主要的数据结构进行流程的模拟。如果要分层进行读取的话，要用一个循环读取当前层的节点，就像本题中。
+
+SerializeAndDeserializeBinaryTree:
+反序列化是难点，queue中保存已经被添加到树中的节点。而在添加节点的左右节点时也要区分，用isLeft = true表示左节点，每遍历序列化得到的字符串数组中的一个元素就更新为！isLeft。
+                TreeNode node = new TreeNode(Integer.parseInt(nodes[i]));
+                if(isLeft){
+                    queue.get(index).left = node;
+                }else{
+                    queue.get(index).right = node;
+                }
+                queue.add(node);//不能queue.add(new TreeNode(Integer.parseInt(nodes[i])))。此时节点之间的关系没有保存。
+
